@@ -1,0 +1,15 @@
+<div class="container">
+    <span class="centered padded vcentered">
+        <button mat-mini-fab color="primary" (click)="toggleMenu.next(true)">
+            <mat-icon>{{icon}}</mat-icon>
+        </button>
+    </span>
+    <span class="centered vcentered">
+        <a routerLink="/home">Home</a>
+    </span>
+    <span class="centered padded vcentered">
+        <button mat-mini-fab color="primary" (click)="router.navigate(['/settings'])">
+            <mat-icon>settings</mat-icon>
+        </button>
+    </span>
+</div>
